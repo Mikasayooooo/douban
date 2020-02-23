@@ -1,0 +1,5 @@
+{
+  "presets": ["env", "stage-0", "react"],//引入react后配置
+  "plugins": ["transform-runtime",["import",{"libraryName":"antd","style":"css"}]]
+  //引入 babel-plugin-import配置
+}

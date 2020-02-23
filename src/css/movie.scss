@@ -1,0 +1,18 @@
+.movieItem_box{
+    // border: 1px solid pink;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 0 5px #fff;
+    cursor: pointer;
+    transition: all .3s ease;
+
+    img{
+        width: 200px;
+        height: 300px;
+    }
+    &:hover{
+        transform: rotate(2deg) scale(1.1);
+    }
+}
